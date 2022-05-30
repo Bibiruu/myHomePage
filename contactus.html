@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head><meta charset="UTF-8">
+        <link rel = stylesheet href = style.css type = text/css>     <!--text file containing css code-->    
+        <title>My page</title>
+    </head>
+
+    <body>
+        <nav class = "Menubar">
+            <ul class = "Menu">
+                <li><a href = "Extension.html"> Home </a></li>
+                <li><a href = "aboutme.html"> About me </a></li>
+                <li><a href = "gallery.html"> Themes</a></li>
+                <li><a href = "contactus.html"> Contact us </a></li>
+            </ul>
+        </nav>
+
+        <h3>Contact Form</h3>  
+        
+        <div class="container"> 
+            <form> 
+                <label for="fname">Etunimi</label> 
+                <input type="text" id="fname" name="firstname" placeholder="Saisinko etunimesi..">  
+                <label for="lname">Sukunimi</label> 
+                <input type="text" id="lname" name="lastname" placeholder="Saisinko sukunimesi..">  
+                <label for="lname">Email</label> 
+                <input type="text" id="email" name="emailaddress" placeholder="Saisinko sähköpostisi..">  
+                <label for="town">Mistä päin olet</label> 
+                <select id="town" name="town"> 
+                    <option value="pohjoisespoo">Pohjois-Espoo</option> 
+                    <option value="suurtapiola">Suur-Tapiola</option> 
+                    <option value="suurmatinkyla">Suur-Matinkylä</option> 
+                    <option value="suurespoonlahti">Suur-Espoonlahti</option> 
+                    <option value="suurkauklahti">Suur-Kauklahti</option> 
+                    <option value="suurkleppavaara">Suur-Leppävaara</option> 
+                    <option value="vanhaespoo">Vanha-Espoo</option> 
+                </select>  
+                    <label for="subject">Aihe</label> 
+                    <textarea id="subject" name="subject" placeholder="Puhutaan, ideoidaan ja vaihdetaan näkemyksiä! =)" style="height:200px"></textarea> 
+                     <input type="submit" value="Submit"> 
+                    </form> 
+        </div>
+        <footer>
+            &copy;Copyright 2021
+         </footer>
+
+    </body>
+
+</html>
